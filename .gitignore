@@ -103,6 +103,17 @@ fabric.properties
 # CodeStream plugin
 # https://plugins.jetbrains.com/plugin/12206-codestream
 .idea/codestream.xml
+### VisualStudioCode ###
+.vscode/*
+!.vscode/tasks.json
+!.vscode/launch.json
+*.code-workspace
 
+### VisualStudioCode Patch ###
+# Ignore all local history of files
+.history
+.ionide
 # End of https://www.toptal.com/developers/gitignore/api/webstorm
+
+#Local
 .idea/
